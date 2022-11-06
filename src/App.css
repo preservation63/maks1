@@ -1,0 +1,139 @@
+.logo {    
+    display: block;
+    width: 109px;
+    height: 30px;
+    background: url(https://www.avito.st/remote-modules/order-widget/7bfd6e8/5e1dc1cb88bf5aa6f3ca.svg) no-repeat;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.hr {
+    margin-top: 25px;
+    width: 65%;
+    opacity: 40%;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        margin-left: 265px;
+    }
+    
+  }
+
+  @media (max-width: 600px) {
+    .hr {
+        width: 100%;
+    }
+  }
+
+  .arrow {
+    fill: currentColor;
+    height: 1em;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    box-sizing: border-box;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    vertical-align: middle;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 16px;
+    display: inline-block;
+    box-sizing: content-box;
+  }
+
+  .price {
+    margin-top: 20px;
+  }
+
+  .remembercard {
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-family: Arial,"Helvetica Neue",Helvetica,"Arial Rub",sans-serif;
+  }
+
+  .cardcard {
+    margin: auto;
+    background-size: cover;
+    height: 250px;
+    width: 511px;
+    border-radius: 15px;
+    border: none;
+  }
+
+  .oplbut {
+    min-height: 40px;
+    border-radius: 6px;
+    background-color: #f2f1f0;
+    color: #b8b8b8;
+    border-color: transparent;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 509px;
+    font-family: Arial,"Helvetica Neue",Helvetica,"Arial Rub",sans-serif;
+  }
+
+  .grcw {
+    font-weight: normal;
+    box-sizing: border-box;
+    line-height: 1.286;
+    color: rgb(133, 133, 133);
+    font-size: 18px;
+  }
+
+  @media (min-width: 1200px) {
+  .middle {
+    margin-left: 255px;
+  }
+}
+
+.arrowpart, .com {
+  font-size: 14px;
+  font-family: Arial,"Helvetica Neue",Helvetica,"Arial Rub",sans-serif;
+  color: black;
+}
+
+.ordercss {
+  font-size: 32px;
+  color: black;
+  font-weight: 600;
+  font-family: Arial,"Helvetica Neue",Helvetica,"Arial Rub",sans-serif;
+}
+
+.bottom {
+  margin-top: 30px;
+}
+
+.checkbox {
+    transition: background-color 0.2s ease 0s;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    user-select: none;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    border-radius: 2px;
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.kkk {
+  vertical-align: middle;
+}
